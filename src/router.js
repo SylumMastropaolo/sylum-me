@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import About from './views/About.vue'
+import Home from './views/Home.vue'
 import Education from './views/Education.vue'
 
 Vue.use(Router)
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'about',
-      component: About
+      name: 'home',
+      component: Home
     },
     {
       path: '/education',
